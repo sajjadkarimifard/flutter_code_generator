@@ -2,6 +2,7 @@ name: generators
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
@@ -10,6 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  build:
+  source_gen:
+  annotations:
+   path: ../annotations/   
 
 dev_dependencies:
   flutter_test:
