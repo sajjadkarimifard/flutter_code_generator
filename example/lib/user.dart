@@ -1,8 +1,12 @@
-@jsonGenerate
 class User {
-  String name;
-  int age;
-  String job;
+  final String name;
+  final int age;
+  final String job;
+  const User({
+    required this.name,
+    required this.age,
+    required this.job,
+  });
 }
 // class User {
 //   String name;
